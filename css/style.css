@@ -1,0 +1,301 @@
+/*---------------- GENERALES */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.italica {
+    font-style: italic;
+}
+
+.fw-ops-1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+.fw-ops-2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.fw-ops-3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.fw-ops-4 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.fw-osw-1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+.fw-osw-2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 600;
+}
+
+.txt-1 {
+    font-size: 0.7em;
+}
+
+.txt-2 {
+    font-size: 1em;
+}
+
+.txt-2-1 {
+    font-size: 1.15em;
+}
+
+.txt-3 {
+    font-size: 1.3em;
+}
+
+.txt-4 {
+    font-size: 1.8em;
+}
+
+.txt-5 {
+    font-size: 2.5em;
+}
+
+.txt-6 {
+    font-size: 3em;
+}
+
+.txt-7 {
+    font-size: 4em;
+}
+
+.lila {
+    color: #660e80;
+}
+
+.amarillo {
+    color: #f6b53e;
+}
+
+.bg-lila {
+    background-color: #660e80;
+}
+
+.bg-lila-transp {
+    background-color: #ffffff;
+}
+
+.bg-amarillo {
+    background-color: #f6b53e;
+}
+
+.txt-negro {
+    color: #212529;
+}
+
+@media only screen and (max-width: 600px) {
+    .mq-titulo {
+        font-size: 3rem;
+    }
+    .mq-subtitulo {
+        font-size: 2.5rem;
+    }
+    .mq-texto {
+        font-size: 1rem;
+    }
+}
+
+
+/*--------------- NAVBAR */
+
+.espacio-inicial {
+    height: 80px;
+}
+
+.nav-600 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.nav-transparente {
+    background-color: #ffffff;
+    transition: all 1s ease;
+}
+
+.nav-normal {
+    background-color: #ffffff;
+    opacity: 0.9;
+    transition: all 1s ease;
+}
+
+.logo-nav {
+    height: 80px;
+}
+
+.redes-sociales {
+    display: inline;
+}
+
+.redes-sociales a i {
+    color: #660e80;
+    font-size: 1.8em;
+    margin-right: 20px;
+    opacity: 0.6;
+}
+
+.iconos-redes a i {
+    color: black;
+    font-size: 1.8em;
+    margin-right: 20px;
+    transition: all 1s ease;
+}
+
+.txt-navbar li a {
+    color: black !important;
+    transition: all 1s ease;
+}
+
+.redes-sociales a:last-child {
+    margin-right: 0;
+}
+
+.navbar-nav li {
+    font-size: 1.2em;
+    margin-left: 2em;
+}
+
+.navbar-nav li a:hover,
+.redes-sociales a i:hover,
+.hover-titulo:hover {
+    color: #660e80 !important;
+    opacity: 1;
+    transition: all 0.5s ease;
+}
+
+
+/*************************************** VIDEO OVERLAY */
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+
+/*************************************** FLORES */
+
+.transit-flores {
+    transition: all 0.8s ease;
+}
+
+header {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.titulo-evento {
+    font-family: "Oswald", sans-serif;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+
+/********************************** Testimoniales */
+
+.testimonial {
+    padding: 2rem;
+    padding-bottom: 0.5rem;
+    max-width: 40rem;
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+}
+
+.borde-amarillo {
+    border-color: #f6b53e;
+}
+
+.preguntas-frecuentes a:hover,
+.btn-amarillo:hover {
+    color: #ffffff;
+    background-color: #f6b53e !important;
+    opacity: 1;
+    transition: all 0.4s ease;
+}
+
+.bg-amarillo-transparencia {
+    background-color: #f6b53e;
+}
+
+.p-top-form {
+    padding-top: 0 !important;
+}
+
+.txtarea {
+    width: 100%;
+    height: 10rem;
+    border-color: #e1e1e1;
+    border-radius: 0.7rem;
+    color: #660e80;
+    background-color: #e1e1e1;
+}
+
+.bg-input {
+    background-color: #e1e1e1;
+    border: none;
+    border-radius: 0.7rem;
+    color: #660e80;
+}
+
+.valores-ubicacion {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pelotitas {
+    list-style: none;
+}
+
+.bg-gris {
+    background-color: #e1e1e1;
+}
+
+.columna {
+    flex-direction: column;
+}
+
+.img-nosotros {
+    width: 100%;
+    height: 20rem;
+    size: contain;
+}
